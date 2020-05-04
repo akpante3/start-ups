@@ -9,7 +9,12 @@ import './Table.css'
 class StartUps extends React.Component {
   render() {
     return (
-      <div className='table'>
+      <div className="table">
+        <div className="table__header">
+          <div className="table__header__text">45 Startups</div>
+          <div><button>filter</button></div>
+        </div>
+        <div className='table__items'>
             <div className='table__item'>
               <div className="table__item__image">
                 <img src="http://public.crunchbase.com/t_api_images/v1502454665/seozli1x8mxeny6mwayf.png" />
@@ -52,6 +57,7 @@ class StartUps extends React.Component {
                 </div>
               </div>
             </div>
+        </div>
       </div>
     );
   }

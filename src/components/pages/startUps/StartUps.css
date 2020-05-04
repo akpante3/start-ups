@@ -2,3 +2,10 @@
     width: 100%;
     text-align: center;
 }
+.start-ups__pagination {
+    margin: auto;
+}
+.rc-pagination {
+    text-align: center;
+    display: inline-block;
+}
