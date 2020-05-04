@@ -12,6 +12,8 @@ The main features for the widget are:
 * Include the startup's name, image and a short description
 * Users should be able to search for a startup. While typing a query into a box, they should see a list of the startups that match
 * Users should be able to alphabetically order the startups
+* pagination
+* location finder
 
 ## Getting Started
 

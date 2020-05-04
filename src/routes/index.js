@@ -1,5 +1,6 @@
 import React from "react";
 import StartUps from '../components/pages/startUps'
+import StartUpDetails from '../components/pages/startUpDetails'
 import {
   Switch,
   Route,
@@ -11,7 +12,8 @@ import {
  */
 const Routes = () => ( 
   <Switch>
-      <Route exact path='/hello' component={StartUps} />
+      <Route exact path='/' component={StartUps} />
+      <Route path='/:id' component={StartUpDetails} />
   </Switch>
 );
 

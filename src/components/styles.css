@@ -1,4 +1,39 @@
+body, html {
+    width: 100%;
+    background-color: #f5f6f8;
+    font-family: 'Baloo 2', cursive;
+    color: #3a3a3a;
+}
 .root {
     width: 100%;
     height: 100vh;
+}
+.wrapper {
+    max-width: 900px;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+.wrapper--detail {
+    animation: wrapper-right 1.2s forwards;
+} *
+.wrapper--list {
+    animation: wrapper-left 1.2s forwards;
+}
+@keyframes wrapper-right {
+    from {
+        transform: translateX(6000px)
+    }
+    to {
+        transform: translateX(0px)
+    }
+}
+@keyframes wrapper-left {
+    from {
+        transform: translateX(-6000px)
+    }
+    to {
+        transform: translateX(0px)
+    }
 }
