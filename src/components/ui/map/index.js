@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Map, GoogleApiWrapper } from 'google-maps-react';
 
 const mapStyles = {
-  width: '200px',
-  height: '200px'
+  width: '100%',
+  height: '100%'
 };
 
 export class MapContainer extends Component {
@@ -23,5 +23,5 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: 'AIzaSyBXWHiFXLseI549Ws1UrIshbWrxj2bMdx0'
+  apiKey: ''
 })(MapContainer);
