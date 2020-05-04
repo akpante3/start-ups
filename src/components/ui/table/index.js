@@ -12,7 +12,7 @@ class StartUps extends React.Component {
       <div className="table">
         <div className="table__header">
           <div className="table__header__text">45 Startups</div>
-          <div><button>filter</button></div>
+          <div><button className="btn btn--md">filter</button></div>
         </div>
         <div className='table__items'>
             <div className='table__item'>

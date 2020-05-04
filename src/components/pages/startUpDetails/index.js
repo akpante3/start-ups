@@ -1,4 +1,5 @@
 import React from 'react';
+import Details from './Details'
 import './StartUpDetails.css'
 
 
@@ -11,7 +12,7 @@ class StartUpDetails extends React.Component {
     return (
       <div className='start-up-details'>
         <div className="wrapper wrapper--detail">
-           hello
+            <Details />
         </div>
       </div>
     );

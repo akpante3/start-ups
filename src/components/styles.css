@@ -11,6 +11,17 @@ body, html {
     width: 100%;
     height: 100vh;
 }
+.btn {
+    padding: 10px;
+    border: none;
+    box-shadow: 0 1.2px 5.6px 0 rgba(0, 0, 0, 0.12);
+}
+.btn--md {
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 7px;
+    width: 80px;
+}
 .wrapper {
     max-width: 900px;
     display: inline-block;

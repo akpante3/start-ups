@@ -1,11 +1,12 @@
 .table {
-    margin-top: 100px;
+    margin-top: 120px;
     width: 100%;
 }
 .table__header {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 30px;
 }
 .table__header__text {
     font-size: 25px;
