@@ -1,16 +1,16 @@
 .table {
-    margin-top: 120px;
+    margin-top: 100px;
     width: 100%;
 }
 .table__header {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 30px;
+    align-items: flex-end;
 }
 .table__header__text {
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 400;
 }
 .table__items {
     display: flex;
@@ -35,7 +35,7 @@
     box-shadow: 0 1.2px 30px 0 rgba(0, 0, 0, 0.09);
 }
 .table__item__image img {
-    object-fit: contain;
+    object-fit: inherit;
     width: 100%;
     height: 100%;
 }
@@ -57,7 +57,33 @@
     font-weight: 400;
     color: #969eac
 }
+.table__item__details__country {
+    font-size: 14px;
+    font-weight: 400;
+    /* color: #969eac   */
+}
 .table__item__details__detail {
     font-size: 16px;
     font-weight: 400; 
+}
+.filter-container {
+    position: relative;
+}
+.filter-container__options {
+    position: absolute;
+    width: 300px;
+    min-height: 150px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    right: 10%;
+    margin-top: 7px;
+    box-shadow: 0 1.2px 5.6px 0 rgba(0, 0, 0, 0.12);
+}
+.filter-container__options select {
+   width: 100%;
+   height: 30px;
+}
+.filter-container__option {
+    margin-bottom: 15px;
 }

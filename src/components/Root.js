@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
 import Routes from '../routes'
+import history from '../helpers/history'
 import {
   BrowserRouter as Router,
 } from "react-router-dom";
@@ -12,13 +13,11 @@ import {
 class Root extends React.Component {
   render() {
     return (
-      <div className='root'>
-        <Router>
-          <Routes />
-        </Router>
-      </div>
+      <Router history={history}>
+        <Routes />
+      </Router>
     );
   }
 }
 
-export default Root;
+export default  Root;

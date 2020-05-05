@@ -15,26 +15,57 @@ body, html {
     padding: 10px;
     border: none;
     box-shadow: 0 1.2px 5.6px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    cursor: pointer;
 }
 .btn--md {
     font-size: 14px;
     font-weight: 500;
-    border-radius: 7px;
+    /* border-radius: 7px; */
     width: 80px;
+}
+.btn--blue {
+  background-color: #0073b1;
+  color: white
 }
 .wrapper {
     max-width: 900px;
     display: inline-block;
     /* padding: 10px; */
     /* border-radius: 5px; */
-    margin: auto;
+    margin: 0px auto;
     width: 98%;
 }
 .wrapper--detail {
     animation: wrapper-right 1.2s forwards;
-} *
+} 
 .wrapper--list {
     animation: wrapper-left 1.2s forwards;
+}
+.tag {
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 10px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: none;
+    border: 1px solid rgb(87, 87, 87);
+    font-size: 14px;
+    padding: 5px 15px;
+    font-weight: 200;
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: 300;
+}
+.align-left {
+    text-align: left
+}
+.align-right {
+    text-align: right
+}
+.map div:first-child{
+    max-width: 800px;
+    max-height: 400px;
 }
 @keyframes wrapper-right {
     from {

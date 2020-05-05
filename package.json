@@ -18,10 +18,14 @@
   },
   "homepage": "https://github.com/wkwiatek/react-hot-loader-minimal-boilerplate#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "google-maps-react": "^2.0.6",
+    "history": "^4.10.1",
+    "moment": "^2.25.3",
+    "query-string": "^6.12.1",
     "rc-pagination": "^2.2.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
@@ -35,6 +39,7 @@
     "prop-types": "^15.6.0",
     "react-hot-loader": "^3.0.0-beta.6",
     "style-loader": "^0.18.2",
+    "svg-inline-loader": "^0.8.2",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.1"
   }
